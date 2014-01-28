@@ -20,7 +20,7 @@
     <string name="defaultferrystationdialog">Enter the default ferry station name</string>
     <string name="noschedulesfile">Error. No schedules file found: </string>
     <string name="title_activity_help">Help</string>
-    <string name="help">The 2 top Lists are respectivily the left bank stations and the right bank stations.\nSelect one station to update the 3 (or 2) bottom lists. \nThe grey list contains the schedule of the selected station. The 2 other list are the nearest stations schedules.</string>
+    <string name="help">**General**\n\nThe 2 top Lists are respectivily the left bank stations and the right bank stations.\nSelect one station to update the 3 bottom lists and the next departure time.\nThe grey list contains the schedule of the selected station. The 2 other list are the preivous and next stations schedules.\n\n**Settings**\n\nRefresh: refresh the next departure time\nSettings: allow to change the source file of the stations+schedules and to set a default station\nHelp: show this screen\nAbout: Show general informations.</string>
     <string name="img_desc">The riverboat of the &quot;La Bouille&quot; french town</string>
 
 </resources>
