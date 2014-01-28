@@ -1,0 +1,47 @@
+* About me and this app
+I made this application to help my brother to catch his town RiverFerry, called "BAC" in France.
+The town is called "La Bouille", it is a small village in France. If you ever go to Normandy. Have a look, you won't regret ;)
+
+* Features :
+- search next riverferry
+- set a default station
+- use own schedules.tsv departure times
+
+* Help me
+You can :
+- send your personnal schedules.tsv file and location. So I will ship it with the app. (Maybe I'll do a selector)
+- report bugs on Github
+- fix bugs
+- ask features
+- add features
+
+* Files
+- the apps creates files in the "$SDCARD/riverferry" directory
+- "schedules.tsv" is the default schedules sources
+- "schedules.tsv.bin" is created using the "schedules.tsv" file
+
+** "schedules.tsv" departure times file format:  
+- 1st line is the column header
+- column are separated with a tabulation
+- next lines are departures
+- 1st column is the station
+- 2nd column is the station's bank : LEFT or RIGHT value
+- 3th column is the days list (comma separated values, no spaces) : "1,2,3,4,5" for monday to friday and "6,7,8" for saturday, sunday and holydays
+- next columns are the departure times formatted "hh:mm" : "14:40" or "06:30"
+
+** "schedules.tsv.bin" binary file
+This files contains the schedules saved in a binary format to make it quicker to load
+if deleted, it is regenerated using the "schedules.tsv" file
+
+* Settings
+
+** Default station
+You can define a default station using the "Default station" preference.
+Be sure to enter the right name of the station, beware of spaces en Uppercase letters.
+Changes apply at next start-up
+
+** Set another schedules TSV file
+You can choose to use another TSV filename to define the departure times using the "TSV ..." setting.
+The new TSV file must be saved in the $SDCARD/riverferry directory.
+Changes apply at next start-up
+At next start up the
