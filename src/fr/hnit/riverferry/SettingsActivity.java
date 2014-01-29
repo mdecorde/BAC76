@@ -14,7 +14,7 @@
 //along with RiverFerry.  If not, see <http://www.gnu.org/licenses/>.
 //
 //Author: Matthieu Decorde 
-//Contact: I won't spread my email address, Please create an issue "contact" on Github with comment "@mdecorde ping"
+//Contact: mdecorde.riverferry@gmail.com
 
 package fr.hnit.riverferry;
 
