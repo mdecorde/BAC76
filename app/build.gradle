@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.hnit.bac76"
+        applicationId "fr.hnit.bac76"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
